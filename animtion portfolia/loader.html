@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santh-portfolia</title>
+   <style>
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5px;
+}
+
+
+
+.load{
+   /* transform: scaleY(0.5); */
+   width: 7px;
+   height: 40px;
+   border-radius: 4px;
+   background-color: black;
+   animation: loading 0.8s infinite 1.5s linear ;
+}
+@keyframes loading{
+    0%{
+        transform: scaleY(0);
+      }
+    100%{
+        transform: scaleY(1);
+   
+    }
+}
+
+
+
+.load_two{
+    width: 7px;
+    height: 40px;
+     border-radius: 4px;
+     background-color: black;
+    animation: loading2 0.8s infinite 1.5s linear ;
+}
+@keyframes loading2{
+    0%{
+        transform: scaleY(1);
+      }
+    100%{
+        transform: scaleY(0);
+   
+    }
+}
+.load_three{
+    width: 7px;
+    height: 40px;
+     border-radius: 4px;
+     background-color: black;
+    animation: loading3 0.8s infinite 1.5s linear ;
+}
+@keyframes loading3{
+    0%{
+        transform: scaleY(0);
+      }
+    100%{
+        transform: scaleY(1);
+   
+    }
+}
+
+
+
+
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="load">
+        </div>
+        <div class="load_two">
+        </div>
+        <div class="load_three">   
+        </div>
+    </div>
+    
+</body>
+</html>
